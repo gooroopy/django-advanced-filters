@@ -34,10 +34,10 @@ var OperatorHandlers = function($) {
 		}
 		self.val_input.css({display: 'none'});
 
-		$(".hasDatepicker").datepicker("destroy");
+		//$(".hasDatepicker").datepicker("destroy");
 		$from.addClass('vDateField');
 		$to.addClass('vDateField');
-		grappelli.initDateAndTimePicker();
+		//grappelli.initDateAndTimePicker();
 	};
 
 	self.remove_datepickers = function() {
@@ -45,7 +45,7 @@ var OperatorHandlers = function($) {
 		if (self.val_input.parent().find('input.vDateField').length > 0) {
 			var datefields = self.val_input.parent().find('input.vDateField');
 			datefields.each(function() {
-				$(this).datepicker("destroy");
+				//$(this).datepicker("destroy");
 			});
 			datefields.remove();
 		}
