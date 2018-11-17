@@ -4,6 +4,9 @@
 {% block extrastyle %}
 	{{ advanced_filters.media.css }}
 	{{ block.super }}
+	{% if not cl.formset and not action_form and advanced_filters %}
+	  <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+	{% endif %}
 {% endblock extrastyle %}
 
 {% block object-tools-items %}
