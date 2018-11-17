@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-16 11:44+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin.py:19
+msgid "Advanced filters"
+msgstr "ตัวกรองขั้นสูง"
+
+#: admin.py:70
+msgid "Advanced filter added successfully."
+msgstr "เพิ่มตัวกรองขั้นสูงสำเร็จแล้ว"
+
+#: forms.py:46
+msgid "Equals"
+msgstr "เท่ากับ"
+
+#: forms.py:47
+msgid "Contains"
+msgstr "มี"
+
+#: forms.py:48
+msgid "One of"
+msgstr "เป็นส่วนหนึ่งของ"
+
+#: forms.py:49
+msgid "DateTime Range"
+msgstr "ช่วงวันเวลา"
+
+#: forms.py:50
+msgid "Is NULL"
+msgstr "เป็นค่าว่างเปล่า"
+
+#: forms.py:51
+msgid "Is TRUE"
+msgstr "เป็นจริง"
+
+#: forms.py:52
+msgid "Is FALSE"
+msgstr "เป็นเท็จ"
+
+#: forms.py:53
+msgid "Less Than"
+msgstr "น้อยกว่า"
+
+#: forms.py:54
+msgid "Greater Than"
+msgstr "มากกว่า"
+
+#: forms.py:55
+msgid "Less Than or Equal To"
+msgstr "น้อยกว่าหรือเท่ากับ"
+
+#: forms.py:56
+msgid "Greater Than or Equal To"
+msgstr "มากกว่าหรือเท่ากับ"
+
+#: forms.py:60
+msgid "Or (mark an or between blocks)"
+msgstr "หรือ (เชื่อมระหว่างกัน)"
+
+#: forms.py:64
+msgid "Field"
+msgstr "ฟิลด์"
+
+#: forms.py:66
+msgid "Operator"
+msgstr "เครื่องหมาย"
+
+#: forms.py:70
+msgid "Value"
+msgstr "ค่า"
+
+#: forms.py:75
+msgid "Negate"
+msgstr "ตรงข้าม"
+
+#: models.py:18 templates/admin/advanced_filters.html:17
+msgid "Advanced Filter"
+msgstr "ตัวกรองขั้นสูง"
+
+#: models.py:19
+msgid "Advanced Filters"
+msgstr "ตัวกรองขั้นสูง"
+
+#: models.py:21
+msgid "Title"
+msgstr "ชื่อ"
+
+#: models.py:25
+msgid "Created by"
+msgstr "สร้างโดย"
+
+#: models.py:28
+msgid "Created at"
+msgstr "สร้างเมื่อ"
+
+#: models.py:29
+msgid "URL"
+msgstr ""
+
+#: models.py:30
+msgid "Users"
+msgstr "ผู้ใช้"
+
+#: models.py:31
+msgid "Groups"
+msgstr "กลุ่ม"
+
+#: templates/admin/advanced_filters.html:17
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: templates/admin/advanced_filters.html:29
+msgid "Create advanced filter"
+msgstr "สร้างตัวกรองขั้นสูง"
+
+#: templates/admin/advanced_filters.html:67
+msgid "Save"
+msgstr "บันทึก"
+
+#: templates/admin/advanced_filters.html:68
+#: templates/admin/advanced_filters/change_form.html:50
+msgid "Save & Filter Now!"
+msgstr "บันทึกและกรองทันที"
+
+#: templates/admin/advanced_filters.html:69
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: templates/admin/advanced_filters/change_form.html:14
+msgid "Change advanced filter"
+msgstr "เปลี่ยนตัวกรองขั้นสูง"
+
+#: templates/admin/common_js_init.html:14
+msgid "Add another filter"
+msgstr "เพิ่มตัวกรองอื่น"
+
+#: templates/admin/common_js_init.html:15
+msgid "Remove"
+msgstr "ลบ"
